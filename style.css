@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    height: 10vh;
+    background-color: rgb(0, 78, 165);
+    color: white;
+    display: flex;
+}
+
+.logo {
+    height: 100%;
+    flex: 8;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 2em;
+}
+
+.items {
+    height: 100%;
+    flex: 8;
+    display: flex;
+}
+
+.item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.menu-icon {
+    flex: 1.5;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content {
+    height: 90vh;
+    width: 100vw;
+    overflow: hidden;
+    font-size: 3em;
+    color:rgb(161, 161, 161);
+    background-color: violet;
+}
+
+#img1 {
+    background-color: violet;
+}
+
+#img2 {
+    background-color: skyblue;
+}
+
+#img3 {
+    background-color: rosybrown;
+}
+
+.carousel {
+    background-color: yellow;
+    height: 100%;
+    width: 300vw;
+    display: flex;
+    transform: translateX(0vw);
+    transition: 0.5s;
+}
+
+.carousel-img {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.sidebar {
+    height: 100vh;
+    width: 25vw;
+    border-radius: 2%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(25vw);
+    background-color: rgb(236, 235, 235);
+    transition: 0.6s;
+}
+
+.close {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items {
+    height: 70%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2em;
+    color:  rgb(5, 121, 255);
+    margin: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    .items {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+    }
+  }
+
